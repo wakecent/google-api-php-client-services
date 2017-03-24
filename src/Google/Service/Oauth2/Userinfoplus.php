@@ -33,7 +33,16 @@ class Google_Service_Oauth2_Userinfoplus extends Google_Model
   public $name;
   public $picture;
   public $verifiedEmail;
+  public $nickname;
 
+  public function setNickname($nickname)
+  {
+      $this->nickname = $nickname;
+  }
+  public function getNickname()
+  {
+      return $this->nickname;
+  }
   public function setEmail($email)
   {
     $this->email = $email;
